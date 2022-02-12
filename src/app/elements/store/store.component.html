@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row align-items-start">
+
+        <div class="col-sm-3" *ngFor="let data of data">
+            <div class="row">
+
+
+                <div>
+                    <img src="{{data.portada}}" alt="">
+                </div>
+                <div class="text-center">
+                    <img class="icon_store" src="{{data.icon}}" alt="">
+                </div>
+                <div class="text-center">
+                    <img src="{{data.products}}" alt="">
+                    <img src="{{data.products1}}" alt="">
+                </div>
+                <div class="text_d text-center">
+                    <p>{{data.text}}</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

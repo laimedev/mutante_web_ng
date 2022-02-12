@@ -1,0 +1,12 @@
+.details_serv {
+    background-color: #EBEBEB ;
+}
+.details_s {
+    padding: 30px;
+}
+
+@media (max-width: 600px) {
+    span {
+        display: none;
+    }
+}

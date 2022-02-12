@@ -1,0 +1,17 @@
+<div class="details_serv">
+    <div class="container">
+        <div class="row align-items-start details_s" >
+            <div class="col" *ngFor="let data of data">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="{{data.img}}" alt="">
+                    </div>
+                    <div class="col-sm-9">
+                        <b>{{data.title}}</b><br>
+                        <span>{{data.description}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

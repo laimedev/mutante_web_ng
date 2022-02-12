@@ -1,0 +1,18 @@
+
+<div class="container">
+    <div class="row  align-items-start " > 
+        <div class="col"  *ngFor="let data of data">
+            <div class="row">
+                <img src="{{data.img}}" alt="">
+            </div><br>
+
+
+            <div class="row">
+                <p style="text-decoration: line-through;">$ {{data.preoferta}}</p>
+                <h5>$ {{data.precio}} <small style="color: red; font-size: 12px; font-weight: bold;"> {{data.desct}} % DTO</small></h5>
+                <small>{{data.descripcion}}</small>
+                <p class="free">Envio Gratis</p>
+            </div>
+        </div>
+    </div>
+</div>

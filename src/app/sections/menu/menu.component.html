@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="d-flex flwx-wrap position-relative">
+
+        <div class="col col-lg-3">
+            <a href="#"  class="nav-link px-2 link-dark" > <img src="assets/menu/MDI - shape-outline.png" alt=""> Todas las categorias   <img src="assets/menu/vuesax-linear-arrow-circle-right.png" alt=""> </a>
+        </div>
+
+
+        <div class="col col-lg-9">
+            <ul class="nav">
+                <li  *ngFor="let data of data">
+                    <a href="#"  class="nav-link px-2 link-dark" > <img src="{{data.icon}}" alt=""> {{data.text}}    </a>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+    </div>
+</div>
